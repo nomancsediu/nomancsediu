@@ -28,7 +28,7 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=nomancsediu&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/nomancsediu?label=Followers&style=social" alt="GitHub Followers" />
+  <img src="https://img.shields.io/github/followers/nomancsediu?label=Followers&style=for-the-badge&color=blue" alt="GitHub Followers" />
 </p>
 
 ---
@@ -36,7 +36,7 @@
 ### 🎯 Target in 2025
 
 <ul style="list-style: none; padding: 0; font-size: 1.1rem; line-height: 1.5;">
-  <li>👨‍💻 Solve 150+ LeetCode problems</li>
+  <li>👨💻 Solve 150+ LeetCode problems</li>
   <li>💻 Become a Full-Stack Django Developer</li>
   <li>🤖 Gain hands-on AI/ML experience via mini projects</li>
   <li>🚀 Build 3+ production-ready projects</li>
