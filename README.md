@@ -75,8 +75,8 @@
 
 <div align="center">
   <img 
-    src="https://activity-graph.herokuapp.com/graph?username=nomancsediu&theme=react-dark&hide_border=true" 
-    alt="GitHub Contribution Graph" 
+    src="https://github-readme-activity-graph.vercel.app/graph?username=nomancsediu&theme=tokyo-night&hide_border=true&area=true&custom_title=Abdullah%20Al%20Noman's%20Contribution%20Graph" 
+    alt="GitHub Activity Graph" 
   />
 </div>
 
