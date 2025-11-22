@@ -28,7 +28,7 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=nomancsediu&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/nomancsediu?label=Followers&style=for-the-badge&color=blue" alt="GitHub Followers" />
+  <img src="https://img.shields.io/github/followers/nomancsediu?label=Followers&style=flat&color=blue" alt="GitHub Followers" />
 </p>
 
 ---
