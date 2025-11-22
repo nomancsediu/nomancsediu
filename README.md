@@ -74,7 +74,10 @@
 ### 🤝 My Contribution
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nomancsediu&theme=tokyo-night&hide_border=true&area=true" alt="GitHub Activity Graph" />
+  <img 
+    src="https://activity-graph.herokuapp.com/graph?username=nomancsediu&theme=react-dark&hide_border=true" 
+    alt="GitHub Contribution Graph" 
+  />
 </div>
 
 ---
