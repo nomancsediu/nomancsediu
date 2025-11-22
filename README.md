@@ -23,7 +23,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C7FF&center=true&vCenter=true&width=440&lines=Aspiring+Full-Stack+Developer;Python+Django+Backend+Enthusiast;Python+%7C+React+%7C+MySQL;Always+Learning+New+Things;LeetCode+Problem+Solver;Competitive+Programming+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C7FF&center=true&vCenter=true&width=440&lines=Aspiring+Full-Stack+Developer;Python+Django+Backend+Enthusiast;Python+%7C+React+%7C+MySQL;Always+Learning+New+Things;LeetCode+Problem+Solver" alt="Typing SVG" />
 </p>
 
 <p align="center">
