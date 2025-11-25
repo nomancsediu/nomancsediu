@@ -36,7 +36,7 @@
 ### 🎯 Target in 2025
 
 <ul style="list-style: none; padding: 0; font-size: 1.1rem; line-height: 1.5;">
-  <li>👨💻 Solve 150+ LeetCode problems</li>
+  <li>👨💻 Solve 50+ LeetCode problems</li>
   <li>💻 Become a Full-Stack Django Developer</li>
   <li>🤖 Gain hands-on AI/ML experience via mini projects</li>
   <li>🚀 Build 3+ production-ready projects</li>
