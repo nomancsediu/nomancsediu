@@ -2,13 +2,14 @@
 
 <h1 align="center">
   <span style="
-    font-family: 'Poppins', sans-serif;
-    font-size: 3.5rem;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
     background: linear-gradient(90deg, #00C7FF, #0057B7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    letter-spacing: 0.1em;
-    text-shadow: 2px 2px 8px rgba(0, 199, 255, 0.5);
+    letter-spacing: 0.15em;
+    text-shadow: 3px 3px 14px rgba(0, 199, 255, 0.6);
   ">
     Hi there, I'm Noman
   </span>
