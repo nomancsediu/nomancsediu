@@ -27,10 +27,10 @@
 
 ### 🎯 Target in 2026
 
-<ul style="list-style: none; padding: 0; font-size: 1.1rem; line-height: 1.5;">
-  <li>Everything is Private for now.</li>
-  
-</ul>
+<p align="center">
+  <img src="https://img.shields.io/badge/Everything_is_Private_for_now.-CLASSIFIED-FFD700?style=for-the-badge&labelColor=000000" />
+</p>
+
 
 ---
 
