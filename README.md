@@ -1,27 +1,19 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
 
-<p align="center">
-  <img src="data:image/svg+xml;utf8,
-  <svg xmlns='http://www.w3.org/2000/svg' width='800' height='120'>
-    <defs>
-      <linearGradient id='grad' x1='0%' y1='0%' x2='100%' y2='0%'>
-        <stop offset='0%' stop-color='%2300C7FF'/>
-        <stop offset='100%' stop-color='%230057B7'/>
-      </linearGradient>
-      <filter id='glow' x='-50%' y='-50%' width='200%' height='200%'>
-        <feGaussianBlur stdDeviation='4' result='blur'/>
-        <feMerge>
-          <feMergeNode in='blur'/>
-          <feMergeNode in='SourceGraphic'/>
-        </feMerge>
-      </feMerge>
-    </filter>
-    </defs>
-    <text x='50%' y='50%' font-family='Poppins, sans-serif' font-size='60' text-anchor='middle' dominant-baseline='middle' fill='url(%23grad)' filter='url(%23glow)'>
-      Hi there, I'm Noman
-    </text>
-  </svg>" alt="Hi there, I'm Noman" />
-</p>
+<h1 align="center">
+  <span style="
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+    background: linear-gradient(90deg, #00C7FF, #0057B7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.1em;
+    text-shadow: 2px 2px 8px rgba(0, 199, 255, 0.5);
+  ">
+    Hi there, I'm Noman
+  </span>
+</h1>
+
 
 
 <p align="center">
