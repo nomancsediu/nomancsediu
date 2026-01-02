@@ -52,34 +52,6 @@
 
 ---
 
-### 📊 LeetCode Stats
-
-<div align="center">
-  <img src="https://leetcard.jacoblin.cool/iamnoman?theme=dark&font=Fira%20Code&ext=heatmap" />
-</div>
-
----
-
-### 🤝 My Contribution
-
-<div align="center">
-  <img 
-    src="https://github-readme-activity-graph.vercel.app/graph?username=nomancsediu&theme=tokyo-night&hide_border=true&area=true&custom_title=Abdullah%20Al%20Noman's%20Contribution%20Graph" 
-    alt="GitHub Activity Graph" 
-  />
-</div>
-
----
-
-### 📈 GitHub Analytics
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=nomancsediu&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nomancsediu&layout=compact&langs_count=8&theme=tokyonight"/>
-</div>
-
----
-
 ### 📫 Connect With Me
 
 <p align="center">
