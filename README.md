@@ -79,7 +79,9 @@
 
 <div align="center">
 
-**"Code is like humor. When you have to explain it, it's bad." – Cory House**
+<div align="center">
+  <img src="https://img.shields.io/badge/Less_noise._More_execution.-000000?style=for-the-badge&labelColor=FFD700" />
+</div>
 
 ⭐ From [nomancsediu](https://github.com/nomancsediu) with ❤️
 
