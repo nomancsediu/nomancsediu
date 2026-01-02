@@ -25,10 +25,11 @@
 
 ---
 
+
 ### 🎯 Target in 2026
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Everything_is_Private_for_now.?style=for-the-badge&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Everything_is_Private-000000?style=for-the-badge&labelColor=FFD700" />
 </p>
 
 
