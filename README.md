@@ -10,7 +10,7 @@
   text-shadow: 2px 2px 8px rgba(0, 199, 255, 0.5);
   margin-bottom: 1rem;
 ">
-  Hi there, I'm Noman 👋
+  Hi there, I'm Noman
 </h1>
 
 <p align="center">
