@@ -1,16 +1,9 @@
-<!-- ================= HEADER ================= -->
-
 <h1 align="center">
-  Hi there, I'm Noman 👋
+  Hi, I'm Noman
 </h1>
 
 <p align="center">
-  <strong>Aspiring Software Engineer</strong><br>
-  Precision with Python & Django • Advancing into Machine Learning
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C7FF&center=true&vCenter=true&width=650&lines=Backend+Focused+Developer;Django+REST+Enthusiast;Future+ML+Engineer" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C7FF&center=true&vCenter=true&width=650&lines=Backend+Focused+Developer;Django+REST+Enthusiast;Future+Machine+Learning+Engineer" />
 </p>
 
 <p align="center">
@@ -19,7 +12,7 @@
 
 ---
 
-## 🎯 Target in 2026
+## Target in 2026
 
 <p align="center">
   <img src="https://img.shields.io/badge/Everything_is_Private-000000?style=for-the-badge&labelColor=FFD700" />
@@ -27,9 +20,9 @@
 
 ---
 
-# 💻 Backend Development
+## Backend Development
 
-### 🧠 Languages
+### Languages
 <p>
 <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
 <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
@@ -37,7 +30,7 @@
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 </p>
 
-### ⚙️ Frameworks & APIs
+### Frameworks & APIs
 <p>
 <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
 <img src="https://img.shields.io/badge/Django%20REST-ff1709?style=for-the-badge&logo=django&logoColor=white"/>
@@ -45,14 +38,14 @@
 <img src="https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white"/>
 </p>
 
-### 🗄️ Databases & Caching
+### Databases & Caching
 <p>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
 <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
 <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
 </p>
 
-### 🛠 Tools
+### Tools
 <p>
 <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
 <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"/>
@@ -61,7 +54,7 @@
 
 ---
 
-# 🎨 Frontend Development
+## Frontend Development
 
 <p>
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
@@ -74,7 +67,7 @@
 
 ---
 
-# 📫 Connect With Me
+## Connect
 
 <p align="center">
   <a href="https://facebook.com/nomancsediu">
@@ -98,5 +91,5 @@
 </p>
 
 <p align="center">
-  ⭐ From <a href="https://github.com/nomancsediu">nomancsediu</a> with ❤️
+  From <a href="https://github.com/nomancsediu">nomancsediu</a>
 </p>
