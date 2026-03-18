@@ -1,5 +1,5 @@
 <h1 align="center">
-  Hi, I'm Abdullah Al Noman 👋
+  <img src="https://readme-typing-svg.herokuapp.com?font=Playfair+Display&weight=700&size=34&duration=1&pause=1000&color=000000&center=true&vCenter=true&repeat=false&width=800&lines=Abdullah+Al+Noman" />
 </h1>
 
 <p align="center">
