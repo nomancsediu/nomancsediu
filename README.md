@@ -33,16 +33,16 @@
 </h2>
 
 <p style="font-family: 'Inter', sans-serif; font-size:16px; line-height:1.6; max-width:800px;">
-  <span style="font-weight:600;">🖥 Semicolons Online Judge:</span><br>
+  <span style="font-weight:600;"><strong>• Semicolons Online Judge :</strong></span><br>
   • Official contest platform of DIU CIS Department<br>
   • Hosted programming contests with 100+ participants<br>
   • Real-time C/C++ code evaluation engine<br><br>
 
-  <span style="font-weight:600;">🎓 Campus Ambassador – Phitron (2025–Present):</span><br>
+  <span style="font-weight:600;"><strong>• Campus Ambassador - Phitron(2025-Present) :</strong></span><br>
   • Promoting programming education<br>
   • Conducting workshops & tech sessions at DIU<br><br>
 
-  <span style="font-weight:600;">🏅 Recognition:</span><br>
+  <span style="font-weight:600;"><strong>• Recognition :</strong></span><br>
   • Acknowledged by DIU CIS Department for platform development contribution
 </p>
 
