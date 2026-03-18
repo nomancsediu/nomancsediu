@@ -93,21 +93,23 @@ My focus is clean architecture, performance, and writing maintainable code.
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 🏆 Semicolons Online Judge
-Online Judge platform for C/C++ with real-time evaluation engine.  
-Used officially in DIU programming contest.
+### Semicolons Online Judge
 
----
+<p>
+  <img src="https://img.shields.io/badge/Platform-000000?style=flat&logo=hackerrank&logoColor=white"/>
+  Competitive Programming Platform
+</p>
 
-## 🎯 2026 Focus
+Real-time C/C++ code evaluation engine built for structured programming contests.  
+Officially used by the DIU CIS Department to conduct a programming contest with 100+ participants.
 
-- Advanced Backend Engineering  
-- System Design & Scalability  
-- Competitive Programming  
-- Applied Machine Learning  
-- Clean Architecture & Performance Optimization  
+<p>
+  <a href="https://semicolons.pythonanywhere.com" target="_blank">
+    <img src="https://img.shields.io/badge/Live_Project-000000?style=for-the-badge&logo=google-chrome&logoColor=white"/>
+  </a>
+</p>
 
 ---
 
