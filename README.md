@@ -98,7 +98,7 @@
   Semicolons Online Judge
 </h3>
 
-<p style="font-family: 'Inter', sans-serif; font-size:16px; text-align:center; max-width:750px;"> align="center"
+<p style="font-family: 'Inter', sans-serif; font-size:16px; text-align:center; max-width:750px;"  align="center">
   Structured competitive programming platform with real-time C/C++ code evaluation.<br>
   Officially used for departmental programming contests with 100+ participants.
 </p>
