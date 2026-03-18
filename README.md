@@ -13,13 +13,13 @@
 </h2>
 
 <p style="font-family: 'Inter', sans-serif; font-size:16px; line-height:1.6; max-width:800px;">
-  <span style="font-weight:600;">🎓 Education:</span> Computer Science & Engineering Student at <strong>Daffodil International University (2023–2027)</strong><br><br>
+  <span style="font-weight:600;">• Education:</span> Computer Science & Engineering Student at <strong>Daffodil International University (2023–2027)</strong><br><br>
 
-  <span style="font-weight:600;">💻 Expertise:</span> Backend Engineering, Scalable System Architecture, Performance-Oriented Applications<br><br>
+  <span style="font-weight:600;">• Expertise:</span> Backend Engineering, Scalable System Architecture, Performance-Oriented Applications<br><br>
 
-  <span style="font-weight:600;">🏆 Projects:</span> Architect & Developer of an <strong>Official Online Judge Platform</strong> used by the DIU CIS Department for programming contests<br><br>
+  <span style="font-weight:600;">• Projects:</span> Architect & Developer of an <strong>Official Online Judge Platform</strong> used by the DIU CIS Department for programming contests<br><br>
 
-  <span style="font-weight:600;">🚀 Current Focus:</span> Distributed Systems, Evaluation Engines, Machine Learning Infrastructure
+  <span style="font-weight:600;">• Current Focus:</span> Distributed Systems, Evaluation Engines, Machine Learning Infrastructure
 </p>
 
 <!-- ================= EXPERIENCE SECTION ================= -->
