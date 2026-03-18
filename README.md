@@ -50,14 +50,36 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:928DAB,100:1f1c2c&height=2&section=header"/>
 </p>
 
+<!-- ================= TECHNOLOGY STACK ================= -->
 
-<h2 align="center">Technology Stack</h2>
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=c,cpp,java,python,django,express,react,mysql,postgres,redis,git,postman" />
+<p>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f1c2c,100:928DAB&height=2&section=header"/>
 </p>
 
----
+<h2 align="left" style="font-family: 'Playfair Display', serif; font-weight:700;">
+  Technology Stack
+</h2>
+
+<p style="font-family: 'Inter', sans-serif; font-size:16px; line-height:1.8; max-width:800px;">
+  <span style="font-weight:600;">💻 Languages:</span><br>
+  • C, C++, Java, Python<br><br>
+
+  <span style="font-weight:600;">⚙ Backend & Frameworks:</span><br>
+  • Django, Django REST Framework, Express.js<br><br>
+
+  <span style="font-weight:600;">🎨 Frontend:</span><br>
+  • React, HTML5, CSS3, Tailwind, Bootstrap<br><br>
+
+  <span style="font-weight:600;">🗄 Databases & Caching:</span><br>
+  • MySQL, PostgreSQL, Redis, NoSQL<br><br>
+
+  <span style="font-weight:600;">🛠 Tools & Utilities:</span><br>
+  • Git, Postman, Swagger, WebSocket
+</p>
+
+<p>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:928DAB,100:1f1c2c&height=2&section=header"/>
+</p>
 
 <h2 align="center">Featured Project</h2>
 
