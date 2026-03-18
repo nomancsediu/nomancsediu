@@ -11,47 +11,20 @@
 </p>
 
 ---
-
 ## About Me
 
-<p>
-  <img src="https://img.shields.io/badge/Education-000000?style=flat&logo=academia&logoColor=white"/>
-  CSE Student at <strong>Daffodil International University (2023–2027)</strong>
-</p>
+🎓 CSE Student at **Daffodil International University (2023–2027)**  
+💻 Passionate about Backend Engineering & System Design  
+🏆 Developer of an **Official Online Judge System** used by DIU CIS Department  
+🎯 Competitive Programming Enthusiast  
+📊 Exploring Machine Learning & Scalable System Architecture  
+🎥 Tech Content Creator on YouTube (Sharing my learning journey)
 
-<p>
-  <img src="https://img.shields.io/badge/Focus-000000?style=flat&logo=code&logoColor=white"/>
-  Backend Engineering & System Design
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/Project-000000?style=flat&logo=hackerrank&logoColor=white"/>
-  Developer of an Official Online Judge System used by DIU CIS Department
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/Interest-000000?style=flat&logo=leetcode&logoColor=white"/>
-  Competitive Programming Enthusiast
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/Exploring-000000?style=flat&logo=tensorflow&logoColor=white"/>
-  Machine Learning & Scalable System Architecture
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/Content-000000?style=flat&logo=youtube&logoColor=white"/>
-  Tech Content Creator — Sharing my learning journey
-</p>
-
-<br/>
-
-I build real-world applications that solve practical problems.  
-My focus is clean architecture, performance optimization, and writing maintainable, production-ready code.
-
+I love building real-world applications that solve actual problems.  
+My focus is clean architecture, performance, and writing maintainable code.
 ---
 
-## 🏆 Experience & Recognition
+## Experience & Recognition
 
 ### 🖥 Semicolons Online Judge (Official Contest Platform)
 - Used officially by DIU CIS Department  
@@ -64,9 +37,6 @@ My focus is clean architecture, performance optimization, and writing maintainab
 
 ### 🏅 Achievements
 - Recognized by DIU CIS Department for platform development contribution
-- Participated in Signature Hackathon by Programming Hero
-- Completed AWS Networking Basics (VPC, Subnet, Routing fundamentals)
-
 ---
 
 ## 💻 Tech Stack
@@ -127,13 +97,6 @@ My focus is clean architecture, performance optimization, and writing maintainab
 ### 🏆 Semicolons Online Judge
 Online Judge platform for C/C++ with real-time evaluation engine.  
 Used officially in DIU programming contest.
-
-### 🛒 CampusCart
-Marketplace for DIU students to buy/sell securely.  
-Includes authentication, product listing, and real-world workflow handling.
-
-### 📈 Momentum
-A progress tracker for learners with growth analytics and structured learning management.
 
 ---
 
