@@ -6,48 +6,29 @@
 ---
 <!-- ================= ABOUT SECTION ================= -->
 
-<br>
-
-<p align="center">
+<!-- Header Divider -->
+<p>
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f1c2c,100:928DAB&height=2&section=header"/>
 </p>
 
-<h2 align="center">
+<h2 align="left" style="font-family: 'Playfair Display', serif; font-weight:700;">
   About Me
 </h2>
 
-<p align="center" width="70%">
-  <strong>Computer Science & Engineering Student</strong><br>
-  Daffodil International University · 2023 — 2027
+<p style="font-family: 'Inter', sans-serif; font-size:16px; line-height:1.6; max-width:800px;">
+  <span style="font-weight:600;">🎓 Education:</span> Computer Science & Engineering Student at <strong>Daffodil International University (2023–2027)</strong><br><br>
+
+  <span style="font-weight:600;">💻 Expertise:</span> Backend Engineering, Scalable System Architecture, Performance-Oriented Applications<br><br>
+
+  <span style="font-weight:600;">🏆 Projects:</span> Architect & Developer of an <strong>Official Online Judge Platform</strong> used by the DIU CIS Department for programming contests<br><br>
+
+  <span style="font-weight:600;">🚀 Current Focus:</span> Distributed Systems, Evaluation Engines, Machine Learning Infrastructure
 </p>
 
-<br>
-
-<p align="center" width="750">
-  I specialize in <strong>Backend Engineering</strong> and 
-  <strong>Scalable System Architecture</strong>, building 
-  production-oriented applications with performance and maintainability in mind.
-</p>
-
-<p align="center" width="750">
-  Architect and developer of an <strong>Official Online Judge Platform</strong> 
-  used by the DIU CIS Department for structured programming contests.
-</p>
-
-<p align="center" width="750">
-  Currently exploring <strong>Distributed Systems</strong>, 
-  <strong>Evaluation Engines</strong>, and 
-  <strong>Machine Learning Infrastructure</strong>.
-</p>
-
-<br>
-
-<p align="center">
+<!-- Footer Divider -->
+<p>
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:928DAB,100:1f1c2c&height=2&section=header"/>
 </p>
-
-<br>
-
 ---
 
 <h2 align="center">Experience & Recognition</h2>
