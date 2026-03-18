@@ -3,9 +3,6 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:302b63,100:24243e&height=140&section=header&text=Abdullah%20Al%20Noman&fontSize=40&fontColor=ffffff&fontAlignY=55&desc=Aspiring%20Software%20Engineer%20|%20System%20Design%20Explorer%20|%20Competitive%20Programmer&descAlignY=75&descSize=18"/>
 </p>
 
----
-<!-- ================= ABOUT SECTION ================= -->
-
 <!-- Header Divider -->
 <p>
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f1c2c,100:928DAB&height=2&section=header"/>
@@ -29,7 +26,6 @@
 <p>
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:928DAB,100:1f1c2c&height=2&section=header"/>
 </p>
----
 
 <h2 align="center">Experience & Recognition</h2>
 
