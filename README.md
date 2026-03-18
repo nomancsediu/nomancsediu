@@ -46,17 +46,32 @@
   • Acknowledged by DIU CIS Department for platform development contribution
 </p>
 
-<p>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f1c2c,100:928DAB&height=2&section=header"/>
-</p>
-
-
-<h2>Technology Stack</h2> <p align="center"> <img src="https://skillicons.dev/icons?i=c,cpp,java,python,django,express,react,mysql,postgres,redis,git,postman" /> </p>
+<!-- ================= TECHNOLOGY STACK ================= -->
 
 <p>
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f1c2c,100:928DAB&height=2&section=header"/>
 </p>
 
+<h2 style="font-family: 'Playfair Display', serif; font-weight:700;">Technology Stack</h2>
+
+<h3 style="font-family: 'Inter', sans-serif; font-weight:600;">💻 Languages & Frameworks</h3>
+<p>
+  <img src="https://skillicons.dev/icons?i=c,cpp,java,python,django,express,react" />
+</p>
+
+<h3 style="font-family: 'Inter', sans-serif; font-weight:600;">🛠 Dev Tools & Databases</h3>
+<p>
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,redis,git,postman,swagger" />
+</p>
+
+<h3 style="font-family: 'Inter', sans-serif; font-weight:600;">🤖 Machine Learning</h3>
+<p>
+  <img src="https://skillicons.dev/icons?i=numpy,pandas,matplotlib,seaborn,scikitlearn,keras" />
+</p>
+
+<p>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:928DAB,100:1f1c2c&height=2&section=header"/>
+</p>
 
 <h2 align="center">Featured Project</h2>
 
