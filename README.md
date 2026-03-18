@@ -1,9 +1,9 @@
 <h1 align="center">
-  Hi, I'm Noman
+  Hi, I'm Abdullah Al Noman 👋
 </h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C7FF&center=true&vCenter=true&width=650&lines=Backend+Focused+Developer;Django+REST+Enthusiast;Future+Machine+Learning+Engineer" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C7FF&center=true&vCenter=true&width=750&lines=Aspiring+Software+Engineer;Backend+Focused+Developer;Django+%7C+System+Design+Explorer;Competitive+Programmer;Future+Machine+Learning+Engineer" />
 </p>
 
 <p align="center">
@@ -12,17 +12,41 @@
 
 ---
 
-## Target in 2026
+## 🚀 About Me
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Everything_is_Private-000000?style=for-the-badge&labelColor=FFD700" />
-</p>
+🎓 CSE Student at **Daffodil International University (2023–2027)**  
+💻 Passionate about Backend Engineering & System Design  
+🏆 Developer of an **Official Online Judge System** used by DIU CIS Department  
+🎯 Competitive Programming Enthusiast  
+📊 Exploring Machine Learning & Scalable System Architecture  
+🎥 Tech Content Creator on YouTube (Sharing my learning journey)
+
+I love building real-world applications that solve actual problems.  
+My focus is clean architecture, performance, and writing maintainable code.
 
 ---
 
-## Backend Development
+## 🏆 Experience & Recognition
 
-### Languages
+### 🖥 Semicolons Online Judge (Official Contest Platform)
+- Used officially by DIU CIS Department  
+- Hosted programming contest with **100+ participants**
+- Real-time C/C++ code evaluation system
+
+### 🎓 Campus Ambassador – Phitron (2025 – Present)
+- Promoting programming education
+- Organizing workshops & tech sessions at DIU
+
+### 🏅 Achievements
+- Recognized by DIU CIS Department for platform development contribution
+- Participated in Signature Hackathon by Programming Hero
+- Completed AWS Networking Basics (VPC, Subnet, Routing fundamentals)
+
+---
+
+## 💻 Tech Stack
+
+### 🧠 Languages
 <p>
 <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
 <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
@@ -30,32 +54,23 @@
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 </p>
 
-### Frameworks & APIs
+### ⚙ Backend
 <p>
 <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
 <img src="https://img.shields.io/badge/Django%20REST-ff1709?style=for-the-badge&logo=django&logoColor=white"/>
-<!-- <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/> -->
+<img src="https://img.shields.io/badge/ExpressJS-000000?style=for-the-badge&logo=express&logoColor=white"/>
 <img src="https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white"/>
 </p>
 
-### Databases & Caching
+### 🗄 Databases & Caching
 <p>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
 <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
 <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+<img src="https://img.shields.io/badge/NoSQL-4DB33D?style=for-the-badge"/>
 </p>
 
-### Tools
-<p>
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-<img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"/>
-<img src="https://img.shields.io/badge/Git-181717?style=for-the-badge&logo=git&logoColor=white"/>
-</p>
-
----
-
-## Frontend Development
-
+### 🎨 Frontend
 <p>
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
@@ -65,9 +80,49 @@
 <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
 </p>
 
+### 📊 Machine Learning Stack
+<p>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge"/>
+</p>
+
+### 🛠 Tools
+<p>
+<img src="https://img.shields.io/badge/Git-181717?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
+<img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"/>
+</p>
+
 ---
 
-## Connect
+## 🚀 Featured Projects
+
+### 🏆 Semicolons Online Judge
+Online Judge platform for C/C++ with real-time evaluation engine.  
+Used officially in DIU programming contest.
+
+### 🛒 CampusCart
+Marketplace for DIU students to buy/sell securely.  
+Includes authentication, product listing, and real-world workflow handling.
+
+### 📈 Momentum
+A progress tracker for learners with growth analytics and structured learning management.
+
+---
+
+## 🎯 2026 Focus
+
+- Advanced Backend Engineering  
+- System Design & Scalability  
+- Competitive Programming  
+- Applied Machine Learning  
+- Clean Architecture & Performance Optimization  
+
+---
+
+## 🤝 Let's Connect
 
 <p align="center">
   <a href="https://facebook.com/nomancsediu">
@@ -91,5 +146,5 @@
 </p>
 
 <p align="center">
-  From <a href="https://github.com/nomancsediu">nomancsediu</a>
+  ⭐ From <a href="https://github.com/nomancsediu">nomancsediu</a>
 </p>
