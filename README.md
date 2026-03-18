@@ -13,7 +13,7 @@
 </h2>
 
 <p style="font-family: 'Inter', sans-serif; font-size:16px; line-height:1.6; max-width:800px;">
-  <span style="font-weight:600;"><strong>• Education:</strong>strong></span> Computer Science & Engineering Student at <strong>Daffodil International University (2023–2027)</strong><br><br>
+  <span style="font-weight:600;"><strong>• Education :</strong></span> Computer Science & Engineering Student at <strong>Daffodil International University (2023–2027)</strong><br><br>
 
   <span style="font-weight:600;">• Expertise:</span> Backend Engineering, Scalable System Architecture, Performance-Oriented Applications<br><br>
 
