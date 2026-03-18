@@ -1,20 +1,52 @@
 <!-- Premium Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:302b63,100:24243e&height=140&section=header&text=Abdullah%20Al%20Noman&fontSize=40&fontColor=ffffff&fontAlignY=55&desc=Backend%20Engineer%20|%20System%20Design%20Explorer%20|%20Competitive%20Programmer&descAlignY=75&descSize=18"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:302b63,100:24243e&height=140&section=header&text=Abdullah%20Al%20Noman&fontSize=40&fontColor=ffffff&fontAlignY=55&desc=Aspiring%20Software%20Engineer%20|%20System%20Design%20Explorer%20|%20Competitive%20Programmer&descAlignY=75&descSize=18"/>
 </p>
 
 ---
+<!-- ================= ABOUT SECTION ================= -->
 
-<h2 align="center" style="font-family: 'Playfair Display', serif;">
-About Me
+<br>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f1c2c,100:928DAB&height=2&section=header"/>
+</p>
+
+<h2 align="center">
+  About Me
 </h2>
 
-<p align="center" style="font-family: 'Inter', sans-serif; max-width: 750px;">
-Computer Science & Engineering student at <strong>Daffodil International University (2023–2027)</strong>.<br>
-Focused on Backend Engineering, scalable architectures, and performance-oriented systems.<br>
-Developer of an official Online Judge platform used by DIU CIS Department.<br>
-Exploring Machine Learning and distributed system design.
+<p align="center" width="70%">
+  <strong>Computer Science & Engineering Student</strong><br>
+  Daffodil International University · 2023 — 2027
 </p>
+
+<br>
+
+<p align="center" width="750">
+  I specialize in <strong>Backend Engineering</strong> and 
+  <strong>Scalable System Architecture</strong>, building 
+  production-oriented applications with performance and maintainability in mind.
+</p>
+
+<p align="center" width="750">
+  Architect and developer of an <strong>Official Online Judge Platform</strong> 
+  used by the DIU CIS Department for structured programming contests.
+</p>
+
+<p align="center" width="750">
+  Currently exploring <strong>Distributed Systems</strong>, 
+  <strong>Evaluation Engines</strong>, and 
+  <strong>Machine Learning Infrastructure</strong>.
+</p>
+
+<br>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:928DAB,100:1f1c2c&height=2&section=header"/>
+</p>
+
+<br>
 
 ---
 
