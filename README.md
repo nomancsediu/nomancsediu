@@ -1,141 +1,75 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Playfair+Display&weight=700&size=34&duration=1&pause=1000&color=000000&center=true&vCenter=true&repeat=false&width=800&lines=Abdullah+Al+Noman" />
-</h1>
-
+<!-- Premium Header -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C7FF&center=true&vCenter=true&width=750&lines=Aspiring+Software+Engineer;Backend+Focused+Developer;Django+%7C+System+Design+Explorer;Competitive+Programmer;Future+Machine+Learning+Engineer" />
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=nomancsediu&label=Profile%20Views&color=0e75b6&style=flat" />
-</p>
-
----
-## About Me
-
-🎓 CSE Student at **Daffodil International University (2023–2027)**  
-💻 Passionate about Backend Engineering & System Design  
-🏆 Developer of an **Official Online Judge System** used by DIU CIS Department  
-🎯 Competitive Programming Enthusiast  
-📊 Exploring Machine Learning & Scalable System Architecture  
-🎥 Tech Content Creator on YouTube (Sharing my learning journey)
-
-I love building real-world applications that solve actual problems.  
-My focus is clean architecture, performance, and writing maintainable code.
-
----
-
-## Experience & Recognition
-
-### 🖥 Semicolons Online Judge (Official Contest Platform)
-- Used officially by DIU CIS Department  
-- Hosted programming contest with **100+ participants**
-- Real-time C/C++ code evaluation system
-
-### 🎓 Campus Ambassador – Phitron (2025 – Present)
-- Promoting programming education
-- Organizing workshops & tech sessions at DIU
-
-### 🏅 Achievements
-- Recognized by DIU CIS Department for platform development contribution
----
-
-## Tech Stack
-
-### 🧠 Languages
-<p>
-<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-</p>
-
-### ⚙ Backend
-<p>
-<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
-<img src="https://img.shields.io/badge/Django%20REST-ff1709?style=for-the-badge&logo=django&logoColor=white"/>
-<img src="https://img.shields.io/badge/ExpressJS-000000?style=for-the-badge&logo=express&logoColor=white"/>
-<img src="https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white"/>
-</p>
-
-### 🗄 Databases & Caching
-<p>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
-<img src="https://img.shields.io/badge/NoSQL-4DB33D?style=for-the-badge"/>
-</p>
-
-### 🎨 Frontend
-<p>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-<img src="https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-</p>
-
-### 📊 Machine Learning Stack
-<p>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge"/>
-</p>
-
-### 🛠 Tools
-<p>
-<img src="https://img.shields.io/badge/Git-181717?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-<img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:302b63,100:24243e&height=140&section=header&text=Abdullah%20Al%20Noman&fontSize=40&fontColor=ffffff&fontAlignY=55&desc=Backend%20Engineer%20|%20System%20Design%20Explorer%20|%20Competitive%20Programmer&descAlignY=75&descSize=18"/>
 </p>
 
 ---
 
-## Featured Projects
+<h2 align="center" style="font-family: 'Playfair Display', serif;">
+About Me
+</h2>
+
+<p align="center" style="font-family: 'Inter', sans-serif; max-width: 750px;">
+Computer Science & Engineering student at <strong>Daffodil International University (2023–2027)</strong>.<br>
+Focused on Backend Engineering, scalable architectures, and performance-oriented systems.<br>
+Developer of an official Online Judge platform used by DIU CIS Department.<br>
+Exploring Machine Learning and distributed system design.
+</p>
+
+---
+
+<h2 align="center">Experience & Recognition</h2>
 
 ### Semicolons Online Judge
+- Official contest platform of DIU CIS Department  
+- Hosted contest with 100+ participants  
+- Real-time C/C++ evaluation engine  
 
-<p>
-  <img src="https://img.shields.io/badge/Platform-000000?style=flat&logo=hackerrank&logoColor=white"/>
-  Competitive Programming Platform
-</p>
+### Campus Ambassador – Phitron (2025–Present)
+- Promoting programming education  
+- Conducting workshops & tech sessions  
 
-Real-time C/C++ code evaluation engine built for structured programming contests.  
-Officially used by the DIU CIS Department to conduct a programming contest with 100+ participants.
+### Recognition
+- Acknowledged by DIU CIS Department for platform development contribution  
 
-<p>
-  <a href="https://semicolons.pythonanywhere.com" target="_blank">
-    <img src="https://img.shields.io/badge/Live_Project-000000?style=for-the-badge&logo=google-chrome&logoColor=white"/>
-  </a>
-</p>
- 
 ---
 
-## Let's Connect
+<h2 align="center">Technology Stack</h2>
 
 <p align="center">
-  <a href="https://facebook.com/nomancsediu">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
-  </a>
-  <a href="https://linkedin.com/in/noman797">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://youtube.com/@allaboutsemicolons">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
-  </a>
-  <a href="mailto:abdnoman093@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
+<img src="https://skillicons.dev/icons?i=c,cpp,java,python,django,express,react,mysql,postgres,redis,git,postman" />
 </p>
 
 ---
 
+<h2 align="center">Featured Project</h2>
+
+<h3 align="center">Semicolons Online Judge</h3>
+
 <p align="center">
-  <img src="https://img.shields.io/badge/Less_noise._More_execution.-000000?style=for-the-badge&labelColor=FFD700"/>
+Structured competitive programming platform with real-time code evaluation.<br>
+Officially used for departmental programming contests.
 </p>
 
 <p align="center">
-  ⭐ From <a href="https://github.com/nomancsediu">nomancsediu</a>
+  <a href="https://semicolons.pythonanywhere.com">
+    <img src="https://img.shields.io/badge/View_Live_Project-000000?style=for-the-badge&logo=google-chrome&logoColor=white"/>
+  </a>
+</p>
+
+---
+
+<h2 align="center">Connect</h2>
+
+<p align="center">
+  <a href="https://facebook.com/nomancsediu">Facebook</a> •
+  <a href="https://linkedin.com/in/noman797">LinkedIn</a> •
+  <a href="https://youtube.com/@allaboutsemicolons">YouTube</a> •
+  <a href="mailto:abdnoman093@gmail.com">Email</a>
+</p>
+
+---
+
+<p align="center">
+<strong>Less noise. More execution.</strong>
 </p>
