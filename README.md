@@ -90,7 +90,7 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f1c2c,100:928DAB&height=2&section=header"/>
 </p>
 
-<h2 style="font-family: 'Playfair Display', serif; font-weight:700;" align="center">
+<h2 style="font-family: 'Playfair Display', serif; font-weight:700;">
   Featured Project
 </h2>
 
@@ -123,7 +123,7 @@
   <a href="https://facebook.com/nomancsediu">
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
   </a>
-  <a href="https://linkedin.com/in/noman797">
+  <a href="https://linkedin.com/in/nomanit">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="https://youtube.com/@allaboutsemicolons">
