@@ -22,11 +22,6 @@
   <span style="font-weight:600;">🚀 Current Focus:</span> Distributed Systems, Evaluation Engines, Machine Learning Infrastructure
 </p>
 
-<!-- Footer Divider -->
-<p>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:928DAB,100:1f1c2c&height=2&section=header"/>
-</p>
-
 <!-- ================= EXPERIENCE SECTION ================= -->
 
 <p>
@@ -55,10 +50,6 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:928DAB,100:1f1c2c&height=2&section=header"/>
 </p>
 
-<!-- Header Divider -->
-<p>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f1c2c,100:928DAB&height=2&section=header"/>
-</p>
 
 <h2 align="center">Technology Stack</h2>
 
