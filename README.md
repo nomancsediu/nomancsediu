@@ -46,6 +46,11 @@
   • Acknowledged by DIU CIS Department for platform development contribution
 </p>
 
+<p>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f1c2c,100:928DAB&height=2&section=header"/>
+</p>
+
+
 <h2 align="center">Technology Stack</h2> <p align="center"> <img src="https://skillicons.dev/icons?i=c,cpp,java,python,django,express,react,mysql,postgres,redis,git,postman" /> </p>
 
 <p>
