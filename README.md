@@ -22,6 +22,7 @@
 
 I love building real-world applications that solve actual problems.  
 My focus is clean architecture, performance, and writing maintainable code.
+
 ---
 
 ## Experience & Recognition
