@@ -27,21 +27,38 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:928DAB,100:1f1c2c&height=2&section=header"/>
 </p>
 
-<h2 align="center">Experience & Recognition</h2>
+<!-- ================= EXPERIENCE SECTION ================= -->
 
-### Semicolons Online Judge
-- Official contest platform of DIU CIS Department  
-- Hosted contest with 100+ participants  
-- Real-time C/C++ evaluation engine  
+<p>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f1c2c,100:928DAB&height=2&section=header"/>
+</p>
 
-### Campus Ambassador – Phitron (2025–Present)
-- Promoting programming education  
-- Conducting workshops & tech sessions  
+<h2 align="left" style="font-family: 'Playfair Display', serif; font-weight:700;">
+  Experience & Recognition
+</h2>
 
-### Recognition
-- Acknowledged by DIU CIS Department for platform development contribution  
+<p style="font-family: 'Inter', sans-serif; font-size:16px; line-height:1.6; max-width:800px;">
+  <span style="font-weight:600;">🖥 Semicolons Online Judge:</span><br>
+  • Official contest platform of DIU CIS Department<br>
+  • Hosted programming contests with 100+ participants<br>
+  • Real-time C/C++ code evaluation engine<br><br>
 
----
+  <span style="font-weight:600;">🎓 Campus Ambassador – Phitron (2025–Present):</span><br>
+  • Promoting programming education<br>
+  • Conducting workshops & tech sessions at DIU<br><br>
+
+  <span style="font-weight:600;">🏅 Recognition:</span><br>
+  • Acknowledged by DIU CIS Department for platform development contribution
+</p>
+
+<p>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:928DAB,100:1f1c2c&height=2&section=header"/>
+</p>
+
+<!-- Header Divider -->
+<p>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f1c2c,100:928DAB&height=2&section=header"/>
+</p>
 
 <h2 align="center">Technology Stack</h2>
 
