@@ -66,7 +66,7 @@
 
 <h3 style="font-family: 'Inter', sans-serif; font-weight:600;">🤖 Machine Learning</h3>
 <p>
-  <img src="https://skillicons.dev/icons?i=numpy,pandas,matplotlib,seaborn,scikitlearn,keras" />
+  <img src="https://skillicons.dev/icons?i=python,numpy,pandas,matplotlib,seaborn" />
 </p>
 
 <p>
