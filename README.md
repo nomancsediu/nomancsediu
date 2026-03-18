@@ -40,7 +40,7 @@ My focus is clean architecture, performance, and writing maintainable code.
 - Recognized by DIU CIS Department for platform development contribution
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
 ### 🧠 Languages
 <p>
@@ -113,7 +113,7 @@ Officially used by the DIU CIS Department to conduct a programming contest with 
  
 ---
 
-## 🤝 Let's Connect
+## Let's Connect
 
 <p align="center">
   <a href="https://facebook.com/nomancsediu">
