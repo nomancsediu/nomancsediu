@@ -15,7 +15,7 @@
 <p style="font-family: 'Inter', sans-serif; font-size:16px; line-height:1.6; max-width:800px;">
   <span style="font-weight:600;"><strong>• Education :</strong></span> Computer Science & Engineering Student at <strong>Daffodil International University (2023–2027)</strong><br><br>
   <span style="font-weight:600;"><strong>• Expertise :</strong></span> Backend Engineering, Scalable System Architecture, Performance-Oriented Applications<br><br>
-  <span style="font-weight:600;"><strong>• Projects :</strong></span> Developer of an <strong>Official Online Judge Platform</strong> used by the DIU CIS Department for programming contests<br><br>
+  <span style="font-weight:600;"><strong>• Projects :</strong></span> Developer of an <strong>Official Online Judge Platform</strong> used by the DIU CIS Department for programming contest<br><br>
   <span style="font-weight:600;"><strong>• Current Focus :</strong></span> Distributed Systems, Machine Learning Infrastructure
 </p>
 
