@@ -16,7 +16,7 @@
   <span style="font-weight:600;"><strong>• Education :</strong></span> Computer Science & Engineering Student at <strong>Daffodil International University (2023–2027)</strong><br><br>
   <span style="font-weight:600;"><strong>• Expertise :</strong></span> Backend Engineering, Scalable System Architecture, Performance-Oriented Applications<br><br>
   <span style="font-weight:600;"><strong>• Projects :</strong></span> Developer of an <strong>Official Online Judge Platform</strong> used by the DIU CIS Department for programming contests<br><br>
-  <span style="font-weight:600;"><strong>• Current Focus :</strong></span> Distributed Systems, Evaluation Engines, Machine Learning Infrastructure
+  <span style="font-weight:600;"><strong>• Current Focus :</strong></span> Distributed Systems, Machine Learning Infrastructure
 </p>
 
 <!-- ================= EXPERIENCE SECTION ================= -->
