@@ -62,6 +62,12 @@
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
 </p>
+<h3 style="font-family: 'Inter', sans-serif; font-weight:600;">🛠 Dev Tools</h3>
+<p>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-181717?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+</p>
 
 <h3 style="font-family: 'Inter', sans-serif; font-weight:600;">🤖 Machine Learning</h3>
 <p>
