@@ -13,7 +13,7 @@
 </h2>
 <p style="font-family: 'Inter', sans-serif; font-size:16px; line-height:1.6; max-width:800px;">
   <span style="font-weight:600;"><strong>• Education :</strong></span> Computer Science & Engineering Student at <strong>Daffodil International University (2023–2027)</strong><br><br>
-  <span style="font-weight:600;"><strong>• Focus Areas :</strong></span> Backend Development, System Design Fundamentals, Scalable Web Applications<br><br>
+  <span style="font-weight:600;"><strong>• Focus Areas :</strong></span> Backend Development, System Design, Scalable Web Applications, AI/ML<br><br>
   <span style="font-weight:600;"><strong>• Projects :</strong></span> Developer of an <strong>Online Judge Platform</strong> used by DIU CIS Department for programming contests<br><br>
   <span style="font-weight:600;"><strong>• Current Learning :</strong></span> System Design, Machine Learning Fundamentals, Backend Optimization
 </p>
