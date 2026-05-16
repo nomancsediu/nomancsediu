@@ -56,10 +56,10 @@
 
 <h3 style="font-family: 'Inter', sans-serif; font-weight:600;">Backend & Frameworks</h3>
 <p>
-  <img src="https://img.shields.io/badge/ExpressJS-000000?style=for-the-badge&logo=express&logoColor=white" />
   <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
   <img src="https://img.shields.io/badge/Django%20REST-ff1709?style=for-the-badge&logo=django&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/ExpressJS-000000?style=for-the-badge&logo=express&logoColor=white" />
 </p>
 
 <h3 style="font-family: 'Inter', sans-serif; font-weight:600;">Databases</h3>
