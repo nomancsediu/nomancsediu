@@ -49,10 +49,22 @@
 <h2 style="font-family: 'Playfair Display', serif; font-weight:700;">Technology Stack</h2>
 
 <h3 style="font-family: 'Inter', sans-serif; font-weight:600;">💻 Languages & Frameworks</h3>
+
+<h4 style="font-family: 'Inter', sans-serif; font-weight:600;">Frontend</h4>
 <p>
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/Django%20REST-ff1709?style=for-the-badge&logo=django&logoColor=white" />
   <img src="https://img.shields.io/badge/ReactJS-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/NextJS-000000?style=for-the-badge&logo=next.js&logoColor=white" />
+</p>
+
+<h4 style="font-family: 'Inter', sans-serif; font-weight:600;">Backend</h4>
+<p>
+  <img src="https://img.shields.io/badge/ExpressJS-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" />
+</p>
+
+<h4 style="font-family: 'Inter', sans-serif; font-weight:600;">Full Stack / API</h4>
+<p>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
 </p>
 
@@ -67,6 +79,7 @@
   <img src="https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white" />
   <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
 </p>
+
 <h3 style="font-family: 'Inter', sans-serif; font-weight:600;">🛠 Dev Tools</h3>
 <p>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
