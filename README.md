@@ -39,37 +39,27 @@
         <a href="https://admissioninformer.com"><img src="https://img.shields.io/badge/Live-000000?style=flat-square&logo=googlechrome&logoColor=white" alt="Live"/></a>
       </h4>
       <p>Bangla university admission portal<br>
-      <strong>20K+ visits / 443K+ requests in 30 days</strong></p>
-      <sub>Django · Next.js · Gemma Vision · AWS · Cloudflare</sub>
+      <strong>Real traffic, real students, live numbers below</strong></p>
+      <sub>Django &middot; Next.js &middot; Gemma Vision &middot; AWS &middot; Cloudflare</sub>
     </td>
     <td width="50%" valign="top">
       <h4>BoardSnap&nbsp;
         <img src="https://img.shields.io/badge/2nd_Place-blueviolet?style=flat-square" alt="2nd Place"/>
       </h4>
-      <p>Whiteboard photo → notes, code, flashcards, quiz<br>
+      <p>Whiteboard photo &rarr; notes, code, flashcards, quiz<br>
       <strong>Build With Gemma @ BD</strong></p>
-      <sub>FastAPI · React · Gemma Vision</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>AI Lab Evaluation Platform&nbsp;
-        <img src="https://img.shields.io/badge/Pilot_at_DIU-yellow?style=flat-square" alt="Pilot at DIU"/>
-      </h4>
-      <p>Final Year Project<br>
-      <strong>AI-assisted lab submission evaluation</strong></p>
-      <sub>Django REST · PostgreSQL · Redis · Celery · AWS</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h4>Semicolons Online Judge&nbsp;
-        <a href="https://semicolons.pythonanywhere.com"><img src="https://img.shields.io/badge/Live-000000?style=flat-square&logo=googlechrome&logoColor=white" alt="Live"/></a>
-      </h4>
-      <p>C/C++ judge with live leaderboard<br>
-      <strong>100+ contest participants</strong></p>
-      <sub>Django · PostgreSQL</sub>
+      <sub>FastAPI &middot; React &middot; Gemma Vision</sub>
     </td>
   </tr>
 </table>
+
+<div align="center">
+
+<br>
+
+<img src="https://admission-traffic.YOUR-SUBDOMAIN.workers.dev" width="495" alt="Admission Informer live traffic, last 30 days (Cloudflare Analytics)"/>
+
+</div>
 
 <br>
 
