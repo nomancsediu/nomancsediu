@@ -9,11 +9,28 @@ Backend and AI Engineer, 2x hackathon winner. CSE student at Daffodil Internatio
 
 ## Featured Projects
 
-<a href="https://admissioninformer.com"><img src="assets/card-admission.svg" width="760" alt="Admission Informer. Live. Bangla university admission portal."/></a>
-
-<a href="https://abdnoman.com"><img src="assets/card-ailab.svg" width="760" alt="AI Assisted Programming Lab Evaluation Platform. Pilot at DIU."/></a>
-
-<a href="https://boardsnap.onrender.com"><img src="assets/card-boardsnap.svg" width="760" alt="BoardSnap. 2nd Place, Build With Gemma at Bangladesh."/></a>
+<table>
+  <tr>
+    <td valign="top" width="33%">
+      <a href="https://admissioninformer.com"><img src="https://www.abdnoman.com/assets/shots/admission-informer-840.webp" alt="Admission Informer" width="100%"/></a>
+      <br><b>Admission Informer</b> · Live
+      <br>Bangla university admission portal. Gemma Vision reads circulars from images.
+      <br><sub>Django REST Framework · Next.js · Gemma Vision · AWS · Cloudflare</sub>
+    </td>
+    <td valign="top" width="33%">
+      <a href="https://abdnoman.com"><img src="https://www.abdnoman.com/assets/shots/semicolons-labs-840.webp" alt="AI Lab Evaluation Platform" width="100%"/></a>
+      <br><b>AI Lab Evaluation Platform</b> · Pilot at DIU
+      <br>AI-assisted evaluation of programming lab submissions. Final Year Design Project.
+      <br><sub>Django REST Framework · PostgreSQL · Redis · Celery · AWS</sub>
+    </td>
+    <td valign="top" width="33%">
+      <a href="https://boardsnap.onrender.com"><img src="https://www.abdnoman.com/assets/shots/boardsnap-840.webp" alt="BoardSnap" width="100%"/></a>
+      <br><b>BoardSnap</b> · 2nd Place
+      <br>Turns a whiteboard photo into notes, code, flashcards and a quiz.
+      <br><sub>FastAPI · React · Gemma Vision</sub>
+    </td>
+  </tr>
+</table>
 
 <img src="assets/traffic.svg" width="440" alt="Admission Informer traffic, last 30 days"/>
 

@@ -7,7 +7,7 @@ Default run (used by the GitHub Action):
 
 Static run (no API, no secrets):
     python3 scripts/update_traffic.py --static
-    Rewrites assets/banner.svg, assets/card-admission.svg, assets/card-ailab.svg, assets/card-boardsnap.svg
+    Rewrites assets/banner.svg
 """
 import datetime as dt
 import html
@@ -31,39 +31,10 @@ query ($zone: string!, $from: Date!, $to: Date!) {
 }
 """
 
-SANS = "'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif"
 MONO = "'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace"
 BG, LIME = "#0a0a0a", "#a3e635"
 TEXT, DIM = "#d4d4d8", "#71717a"
 W = 760
-
-
-STATIC_CARDS = {
-    "assets/card-admission.svg": dict(
-        title="Admission Informer",
-        badge="Live",
-        desc="Bangla university admission portal. Gemma Vision reads circulars from images.",
-        stack="Django REST Framework · Next.js · Gemma Vision · AWS · Cloudflare",
-        meta="admissioninformer.com",
-        accent=LIME,
-    ),
-    "assets/card-ailab.svg": dict(
-        title="AI Assisted Programming Lab Evaluation Platform",
-        badge="Pilot at DIU",
-        desc="AI-assisted evaluation of programming lab submissions.",
-        stack="Django REST Framework · PostgreSQL · Redis · Celery · AWS · Cloudflare",
-        meta="Final Year Design Project · Daffodil International University",
-        accent=LIME,
-    ),
-    "assets/card-boardsnap.svg": dict(
-        title="BoardSnap",
-        badge="2nd Place",
-        desc="Turns a whiteboard photo into notes, code, flashcards and a quiz.",
-        stack="FastAPI · React · Gemma Vision",
-        meta="Team Leader · Build With Gemma @ Bangladesh",
-        accent=LIME,
-    ),
-}
 
 
 def esc(t):
@@ -100,19 +71,6 @@ def fetch(token, zone):
         "pageViews": sum(g["sum"]["pageViews"] for g in groups),
         "visitors": sum(g["uniq"]["uniques"] for g in groups),  # sum of daily uniques
     }
-
-
-def project_card(title, badge, desc, stack, meta_svg, accent=None):
-    h = 128
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{h}" viewBox="0 0 {W} {h}" font-family="{SANS}">
-  <rect x="0.5" y="0.5" width="{W - 1}" height="{h - 1}" fill="{BG}" stroke="{LIME}" stroke-opacity="0.55"/>
-  <text x="24" y="38" font-size="18" font-weight="700" fill="{LIME}">{esc(title)}</text>
-  <text x="{W - 24}" y="38" text-anchor="end" font-size="12" font-family="{MONO}" fill="{LIME}">{esc(badge)}</text>
-  <text x="24" y="64" font-size="13" fill="{TEXT}">{esc(desc)}</text>
-  <text x="24" y="90" font-size="11.5" font-family="{MONO}" fill="{DIM}">{esc(stack)}</text>
-  <text x="24" y="110" font-size="11.5" font-family="{MONO}" fill="{DIM}">{meta_svg}</text>
-</svg>
-"""
 
 
 def traffic_strip(stats):
@@ -155,11 +113,6 @@ def write(path, svg):
 
 def build_static():
     write("assets/banner.svg", banner())
-    for path, c in STATIC_CARDS.items():
-        write(
-            path,
-            project_card(c["title"], c["badge"], c["desc"], c["stack"], esc(c["meta"]), c["accent"]),
-        )
 
 
 if __name__ == "__main__":
