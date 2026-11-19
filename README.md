@@ -25,4 +25,4 @@
 
 ## Tech Stack
 
-<img src="assets/tech-stack.svg" alt="Python, Django, FastAPI, PostgreSQL, MySQL, Redis, Celery, Linux, Docker, AWS, Cloudflare, ReactJS, NextJS, Tailwind CSS, NumPy, Pandas, Matplotlib, PyTorch, TensorFlow, OpenCV, LangChain, LangGraph, pgvector, LangSmith" width="668"/>
+<img src="assets/tech-stack.svg" alt="Python, Django, FastAPI, PostgreSQL, MySQL, Redis, Celery, Linux, Docker, AWS, Cloudflare, ReactJS, NextJS, Tailwind CSS, NumPy, Pandas, Matplotlib, PyTorch, TensorFlow, OpenCV, LangChain, LangGraph, pgvector, LangSmith" width="804"/>
