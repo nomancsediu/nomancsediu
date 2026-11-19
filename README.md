@@ -25,11 +25,12 @@
 
 ## Stack
 
-<table width="100%">
-  <tr>
-    <td width="25%" valign="top"><b>Backend</b><br><br><img src="https://skillicons.dev/icons?i=py,django,fastapi,redis,postgres,mysql&theme=dark&perline=3" alt="Python, Django, FastAPI, Redis, PostgreSQL, MySQL"/><br><sub>+ DRF, Celery</sub></td>
-    <td width="25%" valign="top"><b>AI</b><br><br><img src="https://img.shields.io/badge/LangChain-0a0a0a?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/><br><img src="https://img.shields.io/badge/LangGraph-0a0a0a?style=for-the-badge&logo=langgraph&logoColor=white" alt="LangGraph"/><br><img src="https://img.shields.io/badge/Gemma-0a0a0a?style=for-the-badge&logo=google&logoColor=white" alt="Gemma"/></td>
-    <td width="25%" valign="top"><b>Linux / DevOps</b><br><br><img src="https://skillicons.dev/icons?i=linux,docker,aws,cloudflare,git,githubactions&theme=dark&perline=3" alt="Linux, Docker, AWS, Cloudflare, Git, GitHub Actions"/></td>
-    <td width="25%" valign="top"><b>Frontend</b><br><br><img src="https://skillicons.dev/icons?i=react,nextjs,tailwind&theme=dark&perline=3" alt="React, Next.js, Tailwind CSS"/></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,django,fastapi,redis,postgres,mysql,linux,docker,aws,cloudflare,git,githubactions,react,nextjs,tailwind&theme=dark&perline=8" alt="Python, Django, FastAPI, Redis, PostgreSQL, MySQL, Linux, Docker, AWS, Cloudflare, Git, GitHub Actions, React, Next.js, Tailwind CSS"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/LangChain-0a0a0a?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/>
+  <img src="https://img.shields.io/badge/LangGraph-0a0a0a?style=for-the-badge&logo=langgraph&logoColor=white" alt="LangGraph"/>
+  <img src="https://img.shields.io/badge/Gemma-0a0a0a?style=for-the-badge&logo=google&logoColor=white" alt="Gemma"/>
+</p>
