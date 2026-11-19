@@ -25,8 +25,4 @@
 
 ## Tech Stack
 
-<img src="https://skillicons.dev/icons?i=py,django,fastapi,redis,postgres,mysql,linux,docker,aws,cloudflare,git,githubactions,react,nextjs,tailwind&theme=dark&perline=15" alt="Python, Django, FastAPI, Redis, PostgreSQL, MySQL, Linux, Docker, AWS, Cloudflare, Git, GitHub Actions, React, Next.js, Tailwind CSS"/>
-
-<img src="https://img.shields.io/badge/LangChain-0a0a0a?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/>
-<img src="https://img.shields.io/badge/LangGraph-0a0a0a?style=for-the-badge&logo=langgraph&logoColor=white" alt="LangGraph"/>
-<img src="https://img.shields.io/badge/Gemma-0a0a0a?style=for-the-badge&logo=google&logoColor=white" alt="Gemma"/>
+<img src="assets/tech-stack.svg" alt="Python, Django, FastAPI, PostgreSQL, MySQL, Redis, Celery, Linux, Docker, AWS, Cloudflare, ReactJS, NextJS, Tailwind CSS, NumPy, Pandas, Matplotlib, PyTorch, TensorFlow, OpenCV, LangChain, LangGraph, pgvector, LangSmith" width="668"/>
