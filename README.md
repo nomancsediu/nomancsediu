@@ -20,55 +20,27 @@
   <a href="mailto:abdnoman093@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
-<h3><code>$ ls ~/projects</code></h3>
+<h3>Projects</h3>
 
 <p><a href="https://admissioninformer.com"><img src="assets/traffic.svg" width="760" alt="Admission Informer. Live. Bangla university admission portal."/></a></p>
 <p><a href="https://abdnoman.com"><img src="assets/card-ailab.svg" width="760" alt="AI Assisted Programming Lab Evaluation Platform. Pilot at DIU."/></a></p>
 <p><a href="https://boardsnap.onrender.com"><img src="assets/card-boardsnap.svg" width="760" alt="BoardSnap. 2nd Place, Build With Gemma at Bangladesh."/></a></p>
 
-<h3><code>$ ls ~/stack</code></h3>
+<h3>Stack</h3>
 
-<p><code>~/backend</code></p>
-<img src="https://skillicons.dev/icons?i=python,django,fastapi,postgres,redis" alt="Backend stack"/>
+<img src="assets/stack.svg" width="760" alt="Stack: backend, AI, Linux and DevOps, frontend"/>
 
-<p><code>~/ai</code></p>
-<p>
-  <img src="https://img.shields.io/badge/Gemma_Vision-1F2937?style=flat-square" alt="Gemma Vision"/>
-  <img src="https://img.shields.io/badge/LangChain-1F2937?style=flat-square" alt="LangChain"/>
-  <img src="https://img.shields.io/badge/LangGraph-1F2937?style=flat-square" alt="LangGraph"/>
-  <img src="https://img.shields.io/badge/RAG-1F2937?style=flat-square" alt="RAG"/>
-  <img src="https://img.shields.io/badge/LLM_Integration-1F2937?style=flat-square" alt="LLM Integration"/>
-</p>
-
-<p><code>~/linux-devops</code></p>
-<img src="https://skillicons.dev/icons?i=linux,bash,docker,aws,cloudflare,git,github,githubactions" alt="Linux and DevOps stack"/>
-
-<p><code>~/frontend</code></p>
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind" alt="Frontend stack"/>
-
-<h3><code>$ cat achievements.txt</code></h3>
+<h3>Achievements</h3>
 
 <p>
-  <img src="https://img.shields.io/badge/2nd_Place-Build_With_Gemma-blueviolet?style=flat-square" alt="2nd Place Build With Gemma"/>
-  <img src="https://img.shields.io/badge/Winner-Devpost_AI_Hack_Days-22C55E?style=flat-square" alt="Winner Devpost AI Hack Days"/>
-  <img src="https://img.shields.io/badge/Jacket_Winner-AWS_Builder_Challenge-FF9900?style=flat-square" alt="Jacket Winner AWS Builder Challenge"/>
-  <br>
-  <img src="https://img.shields.io/badge/Codeforces-nomanexists-1F8ACB?style=flat-square&logo=codeforces&logoColor=white" alt="Codeforces nomanexists"/>
-  <img src="https://img.shields.io/badge/Contests-30+-blue?style=flat-square" alt="30+ Contests"/>
-  <img src="https://img.shields.io/badge/Hackathons-5+-blue?style=flat-square" alt="5+ Hackathons"/>
+  2nd Place · Build With Gemma @ Bangladesh<br>
+  Winner · Devpost Build with AI Hack Days @ DIU<br>
+  Jacket Winner · AWS Builder Challenge<br>
+  30+ contests · Codeforces <a href="https://codeforces.com/profile/nomanexists">nomanexists</a>
 </p>
 
-<h3><code>$ github --stats</code></h3>
-
-<img src="https://github-readme-stats.vercel.app/api?username=nomancsediu&show_icons=true&count_private=true&hide_border=true&bg_color=0f0c29&title_color=a78bfa&text_color=e6e4ff&icon_color=22d3ee&border_radius=10" height="170" alt="GitHub stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nomancsediu&layout=compact&hide_border=true&bg_color=0f0c29&title_color=a78bfa&text_color=e6e4ff&border_radius=10&langs_count=6" height="170" alt="Top languages"/>
-
-<br><br>
+<br>
 
 <sub>Open to internships and backend or AI engineering roles. Email gets the fastest reply.</sub>
-
-<br><br>
-
-<a href="https://abdnoman.com"><img src="https://img.shields.io/badge/$_Less_noise._More_execution.-0f0c29?style=for-the-badge&logo=gnubash&logoColor=4ade80" alt="Less noise. More execution."/></a>
 
 </div>
