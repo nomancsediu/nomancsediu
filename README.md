@@ -23,14 +23,10 @@
   </tr>
 </table>
 
-## Stack
+## Tech Stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,django,fastapi,redis,postgres,mysql,linux,docker,aws,cloudflare,git,githubactions,react,nextjs,tailwind&theme=dark&perline=8" alt="Python, Django, FastAPI, Redis, PostgreSQL, MySQL, Linux, Docker, AWS, Cloudflare, Git, GitHub Actions, React, Next.js, Tailwind CSS"/>
-</p>
+<img src="https://skillicons.dev/icons?i=py,django,fastapi,redis,postgres,mysql,linux,docker,aws,cloudflare,git,githubactions,react,nextjs,tailwind&theme=dark&perline=15" alt="Python, Django, FastAPI, Redis, PostgreSQL, MySQL, Linux, Docker, AWS, Cloudflare, Git, GitHub Actions, React, Next.js, Tailwind CSS"/>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/LangChain-0a0a0a?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/>
-  <img src="https://img.shields.io/badge/LangGraph-0a0a0a?style=for-the-badge&logo=langgraph&logoColor=white" alt="LangGraph"/>
-  <img src="https://img.shields.io/badge/Gemma-0a0a0a?style=for-the-badge&logo=google&logoColor=white" alt="Gemma"/>
-</p>
+<img src="https://img.shields.io/badge/LangChain-0a0a0a?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/>
+<img src="https://img.shields.io/badge/LangGraph-0a0a0a?style=for-the-badge&logo=langgraph&logoColor=white" alt="LangGraph"/>
+<img src="https://img.shields.io/badge/Gemma-0a0a0a?style=for-the-badge&logo=google&logoColor=white" alt="Gemma"/>
