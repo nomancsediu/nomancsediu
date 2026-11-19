@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="280" viewBox="0 0 300 280" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace">
+  <rect x="0.5" y="0.5" width="299" height="279" fill="#000000" stroke="#a3e635" stroke-opacity="0.55"/>
+  <rect x="24" y="26" width="8" height="8" fill="#a3e635"/>
+  <text x="42" y="34" font-size="11" letter-spacing="2" fill="#a3e635" fill-opacity="0.65">PROJECT</text>
+  <text x="24" y="74" font-size="21" font-weight="700" fill="#a3e635">AI Lab Evaluation</text>
+  <text x="24" y="100" font-size="21" font-weight="700" fill="#a3e635">Platform</text>
+  <rect x="24" y="119" width="8" height="8" fill="#a3e635"/>
+  <text x="42" y="128" font-size="12" fill="#a3e635">PILOT AT DIU</text>
+  <rect x="24" y="148" width="252" height="1" fill="#a3e635" fill-opacity="0.25"/>
+  <text x="24" y="182" font-size="12" fill="#d4d4d8">Final Year Design Project</text>
+  <text x="24" y="204" font-size="12" fill="#71717a">Daffodil International University</text>
+</svg>

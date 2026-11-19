@@ -11,21 +11,15 @@ Backend and AI Engineer, 2x hackathon winner. CSE student at Daffodil Internatio
 
 <table>
   <tr>
-    <td width="60%"><a href="https://admissioninformer.com"><img src="https://www.abdnoman.com/assets/shots/admission-informer-840.webp" alt="Admission Informer" width="100%"/></a></td>
-    <td width="40%" valign="top"><a href="https://admissioninformer.com"><img src="assets/traffic.svg" alt="Admission Informer. Live. Traffic, last 30 days." width="100%"/></a></td>
+    <td valign="top"><a href="https://admissioninformer.com"><img src="https://www.abdnoman.com/assets/shots/admission-informer-840.webp" alt="Admission Informer. Live." height="280"/></a></td>
+    <td valign="top"><a href="https://admissioninformer.com"><img src="assets/traffic.svg" alt="Admission Informer. Live." height="280"/></a></td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <a href="https://abdnoman.com"><img src="https://www.abdnoman.com/assets/shots/semicolons-labs-840.webp" alt="AI Lab Evaluation Platform" width="100%"/></a>
-      <br><b>AI Lab Evaluation Platform</b> · Pilot at DIU
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://boardsnap.onrender.com"><img src="https://www.abdnoman.com/assets/shots/boardsnap-840.webp" alt="BoardSnap" width="100%"/></a>
-      <br><b>BoardSnap</b> · 2nd Place
-    </td>
+    <td valign="top"><a href="https://abdnoman.com"><img src="https://www.abdnoman.com/assets/shots/semicolons-labs-840.webp" alt="AI Lab Evaluation Platform. Pilot at DIU." height="280"/></a></td>
+    <td valign="top"><a href="https://abdnoman.com"><img src="assets/card-ailab.svg" alt="AI Lab Evaluation Platform. Pilot at DIU." height="280"/></a></td>
   </tr>
 </table>
 

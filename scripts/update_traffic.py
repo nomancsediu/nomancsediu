@@ -7,7 +7,7 @@ Default run (used by the GitHub Action):
 
 Static run (no API, no secrets):
     python3 scripts/update_traffic.py --static
-    Rewrites assets/banner.svg
+    Rewrites assets/banner.svg and assets/card-ailab.svg
 """
 import datetime as dt
 import html
@@ -73,33 +73,51 @@ def fetch(token, zone):
     }
 
 
+CW, CH = 300, 280  # both side cards: same size, same height as the screenshot (height="280")
+
+
+def _frame(label, body, dot_pulse=False):
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{CW}" height="{CH}" viewBox="0 0 {CW} {CH}" font-family="{MONO}">
+  <rect x="0.5" y="0.5" width="{CW - 1}" height="{CH - 1}" fill="#000000" stroke="{LIME}" stroke-opacity="0.55"/>
+  <rect x="24" y="26" width="8" height="8" fill="{LIME}"/>
+  <text x="42" y="34" font-size="11" letter-spacing="2" fill="{LIME}" fill-opacity="0.65">{label}</text>
+  {body}
+</svg>
+"""
+
+
 def traffic_card(stats):
-    w, h = 340, 300
     rows = [
         (fmt(stats["requests"]), "requests"),
         (fmt(stats["pageViews"]), "page views"),
         (fmt(stats["visitors"]), "visitors"),
     ]
-    body = ""
+    stat = ""
     for i, (num, label) in enumerate(rows):
-        y = 176 + i * 42
-        body += (
-            f'<text x="24" y="{y}" font-size="30" font-weight="700" fill="{LIME}">{num}</text>'
-            f'<text x="160" y="{y}" font-size="13" fill="{TEXT}">{label}</text>\n  '
+        y = 168 + i * 38
+        stat += (
+            f'<text x="24" y="{y}" font-size="28" font-weight="700" fill="{LIME}">{num}</text>'
+            f'<text x="140" y="{y}" font-size="13" fill="{TEXT}">{label}</text>\n  '
         )
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" font-family="{MONO}">
-  <rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" fill="#000000" stroke="{LIME}" stroke-opacity="0.55"/>
-  <rect x="24" y="26" width="8" height="8" fill="{LIME}"/>
-  <text x="42" y="34" font-size="11" letter-spacing="2" fill="{LIME}" fill-opacity="0.65">FEATURED</text>
-  <text x="24" y="76" font-size="25" font-weight="700" fill="{LIME}">Admission Informer</text>
-  <rect x="24" y="97" width="8" height="8" fill="{LIME}">
+    body = f"""<text x="24" y="74" font-size="21" font-weight="700" fill="{LIME}">Admission Informer</text>
+  <rect x="24" y="93" width="8" height="8" fill="{LIME}">
     <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite"/>
   </rect>
-  <text x="42" y="106" font-size="13" fill="{LIME}">LIVE  admissioninformer.com</text>
-  <rect x="24" y="126" width="{w - 48}" height="1" fill="{LIME}" fill-opacity="0.25"/>
-  {body}<text x="24" y="{h - 14}" font-size="10.5" fill="{DIM}">last 30 days &#183; Cloudflare</text>
-</svg>
-"""
+  <text x="42" y="102" font-size="12" fill="{LIME}">LIVE  admissioninformer.com</text>
+  <rect x="24" y="122" width="{CW - 48}" height="1" fill="{LIME}" fill-opacity="0.25"/>
+  {stat}<text x="24" y="{CH - 14}" font-size="10" fill="{DIM}">last 30 days &#183; Cloudflare</text>"""
+    return _frame("FEATURED", body)
+
+
+def lab_card():
+    body = f"""<text x="24" y="74" font-size="21" font-weight="700" fill="{LIME}">AI Lab Evaluation</text>
+  <text x="24" y="100" font-size="21" font-weight="700" fill="{LIME}">Platform</text>
+  <rect x="24" y="119" width="8" height="8" fill="{LIME}"/>
+  <text x="42" y="128" font-size="12" fill="{LIME}">PILOT AT DIU</text>
+  <rect x="24" y="148" width="{CW - 48}" height="1" fill="{LIME}" fill-opacity="0.25"/>
+  <text x="24" y="182" font-size="12" fill="{TEXT}">Final Year Design Project</text>
+  <text x="24" y="204" font-size="12" fill="{DIM}">Daffodil International University</text>"""
+    return _frame("PROJECT", body)
 
 
 def banner():
@@ -184,6 +202,7 @@ def write(path, svg):
 
 def build_static():
     write("assets/banner.svg", banner())
+    write("assets/card-ailab.svg", lab_card())
 
 
 if __name__ == "__main__":
