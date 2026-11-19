@@ -2,7 +2,7 @@
 
 Default run (used by the GitHub Action):
     Fetches 30-day traffic from the Cloudflare GraphQL Analytics API and writes
-    assets/traffic.svg (a small live-numbers strip for Admission Informer).
+    assets/traffic.svg (the Admission Informer stats card, with live numbers).
     Env: CF_API_TOKEN (Zone > Analytics > Read), CF_ZONE_ID
 
 Static run (no API, no secrets):
@@ -73,18 +73,31 @@ def fetch(token, zone):
     }
 
 
-def traffic_strip(stats):
-    w, h = 440, 40
-    v = lambda t: f'<tspan fill="{LIME}" font-weight="700">{t}</tspan>'
-    text = (
-        f"{v(fmt(stats['requests']))} requests &#183; {v(fmt(stats['pageViews']))} views"
-        f" &#183; {v(fmt(stats['visitors']))} visitors"
-    )
+def traffic_card(stats):
+    w, h = 340, 300
+    rows = [
+        (fmt(stats["requests"]), "requests"),
+        (fmt(stats["pageViews"]), "page views"),
+        (fmt(stats["visitors"]), "visitors"),
+    ]
+    body = ""
+    for i, (num, label) in enumerate(rows):
+        y = 176 + i * 42
+        body += (
+            f'<text x="24" y="{y}" font-size="30" font-weight="700" fill="{LIME}">{num}</text>'
+            f'<text x="160" y="{y}" font-size="13" fill="{TEXT}">{label}</text>\n  '
+        )
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" font-family="{MONO}">
-  <rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" fill="{BG}" stroke="{LIME}" stroke-opacity="0.55"/>
-  <rect x="16" y="16" width="8" height="8" fill="{LIME}"/>
-  <text x="34" y="24" font-size="11.5" fill="{DIM}">{text}</text>
-  <text x="{w - 16}" y="24" text-anchor="end" font-size="10.5" fill="{DIM}">30d</text>
+  <rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" fill="#000000" stroke="{LIME}" stroke-opacity="0.55"/>
+  <rect x="24" y="26" width="8" height="8" fill="{LIME}"/>
+  <text x="42" y="34" font-size="11" letter-spacing="2" fill="{LIME}" fill-opacity="0.65">FEATURED</text>
+  <text x="24" y="76" font-size="25" font-weight="700" fill="{LIME}">Admission Informer</text>
+  <rect x="24" y="97" width="8" height="8" fill="{LIME}">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite"/>
+  </rect>
+  <text x="42" y="106" font-size="13" fill="{LIME}">LIVE  admissioninformer.com</text>
+  <rect x="24" y="126" width="{w - 48}" height="1" fill="{LIME}" fill-opacity="0.25"/>
+  {body}<text x="24" y="{h - 14}" font-size="10.5" fill="{DIM}">last 30 days &#183; Cloudflare</text>
 </svg>
 """
 
@@ -149,7 +162,7 @@ def banner():
   </rect>
 
   <g opacity="0">
-    <text x="48" y="256" font-size="26" fill="{LIME}">Backend  &#183;  AI  &#183;  Linux  &#183;  DevOps</text>
+    <text x="48" y="256" font-size="26" fill="{LIME}">Backend and AI Engineer</text>
     <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="2.0s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.8s" begin="2.0s" fill="freeze" {ease}/>
   </g>
@@ -178,4 +191,4 @@ if __name__ == "__main__":
         build_static()
     else:
         stats = fetch(os.environ["CF_API_TOKEN"], os.environ["CF_ZONE_ID"])
-        write("assets/traffic.svg", traffic_strip(stats))
+        write("assets/traffic.svg", traffic_card(stats))

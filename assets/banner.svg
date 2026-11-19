@@ -54,7 +54,7 @@
   </rect>
 
   <g opacity="0">
-    <text x="48" y="256" font-size="26" fill="#a3e635">Backend  &#183;  AI  &#183;  Linux  &#183;  DevOps</text>
+    <text x="48" y="256" font-size="26" fill="#a3e635">Backend and AI Engineer</text>
     <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="2.0s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.8s" begin="2.0s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
   </g>
