@@ -7,7 +7,7 @@ Default run (used by the GitHub Action):
 
 Static run (no API, no secrets):
     python3 scripts/update_traffic.py --static
-    Rewrites assets/card-admission.svg, assets/card-ailab.svg, assets/card-boardsnap.svg
+    Rewrites assets/banner.svg, assets/card-admission.svg, assets/card-ailab.svg, assets/card-boardsnap.svg
 """
 import datetime as dt
 import html
@@ -33,10 +33,10 @@ query ($zone: string!, $from: Date!, $to: Date!) {
 
 SANS = "'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif"
 MONO = "'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace"
-BG, BORDER = "#110e2b", "#ffffff"
+BG, LIME = "#0a0a0a", "#a3e635"
+TEXT, DIM = "#d4d4d8", "#71717a"
 W = 760
 
-GREEN, AMBER, PURPLE, CYAN = "#4ade80", "#fbbf24", "#a78bfa", "#22d3ee"
 
 STATIC_CARDS = {
     "assets/card-admission.svg": dict(
@@ -45,7 +45,7 @@ STATIC_CARDS = {
         desc="Bangla university admission portal. Gemma Vision reads circulars from images.",
         stack="Django REST Framework · Next.js · Gemma Vision · AWS · Cloudflare",
         meta="admissioninformer.com",
-        accent=GREEN,
+        accent=LIME,
     ),
     "assets/card-ailab.svg": dict(
         title="AI Assisted Programming Lab Evaluation Platform",
@@ -53,7 +53,7 @@ STATIC_CARDS = {
         desc="AI-assisted evaluation of programming lab submissions.",
         stack="Django REST Framework · PostgreSQL · Redis · Celery · AWS · Cloudflare",
         meta="Final Year Design Project · Daffodil International University",
-        accent=AMBER,
+        accent=LIME,
     ),
     "assets/card-boardsnap.svg": dict(
         title="BoardSnap",
@@ -61,7 +61,7 @@ STATIC_CARDS = {
         desc="Turns a whiteboard photo into notes, code, flashcards and a quiz.",
         stack="FastAPI · React · Gemma Vision",
         meta="Team Leader · Build With Gemma @ Bangladesh",
-        accent=PURPLE,
+        accent=LIME,
     ),
 }
 
@@ -102,31 +102,46 @@ def fetch(token, zone):
     }
 
 
-def project_card(title, badge, desc, stack, meta_svg, accent):
-    h = 136
+def project_card(title, badge, desc, stack, meta_svg, accent=None):
+    h = 128
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{h}" viewBox="0 0 {W} {h}" font-family="{SANS}">
-  <rect x="0.5" y="0.5" width="{W - 1}" height="{h - 1}" rx="10" fill="{BG}" stroke="{BORDER}" stroke-opacity="0.10"/>
-  <text x="24" y="38" font-size="19" font-weight="700" fill="#ffffff">{esc(title)}</text>
-  <text x="{W - 24}" y="38" text-anchor="end" font-size="12" font-weight="600" fill="{accent}">{esc(badge)}</text>
-  <text x="24" y="66" font-size="13" fill="#cfcdf5">{esc(desc)}</text>
-  <text x="24" y="92" font-size="11.5" font-family="{MONO}" fill="#8f8bc7">{esc(stack)}</text>
-  <text x="24" y="116" font-size="11.5" font-family="{MONO}" fill="#a9a5d9">{meta_svg}</text>
+  <rect x="0.5" y="0.5" width="{W - 1}" height="{h - 1}" fill="{BG}" stroke="{LIME}" stroke-opacity="0.55"/>
+  <text x="24" y="38" font-size="18" font-weight="700" fill="{LIME}">{esc(title)}</text>
+  <text x="{W - 24}" y="38" text-anchor="end" font-size="12" font-family="{MONO}" fill="{LIME}">{esc(badge)}</text>
+  <text x="24" y="64" font-size="13" fill="{TEXT}">{esc(desc)}</text>
+  <text x="24" y="90" font-size="11.5" font-family="{MONO}" fill="{DIM}">{esc(stack)}</text>
+  <text x="24" y="110" font-size="11.5" font-family="{MONO}" fill="{DIM}">{meta_svg}</text>
 </svg>
 """
 
 
 def traffic_strip(stats):
-    w, h = 460, 44
-    v = lambda t: f'<tspan fill="#ffffff" font-weight="700">{t}</tspan>'
+    w, h = 440, 40
+    v = lambda t: f'<tspan fill="{LIME}" font-weight="700">{t}</tspan>'
     text = (
         f"{v(fmt(stats['requests']))} requests &#183; {v(fmt(stats['pageViews']))} views"
         f" &#183; {v(fmt(stats['visitors']))} visitors"
     )
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" font-family="{MONO}">
-  <rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="10" fill="{BG}" stroke="{BORDER}" stroke-opacity="0.10"/>
-  <circle cx="20" cy="22" r="4" fill="{GREEN}"/>
-  <text x="34" y="26" font-size="11.5" fill="#a9a5d9">{text}</text>
-  <text x="{w - 18}" y="26" text-anchor="end" font-size="10.5" fill="#8f8bc7">30d</text>
+  <rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" fill="{BG}" stroke="{LIME}" stroke-opacity="0.55"/>
+  <rect x="16" y="16" width="8" height="8" fill="{LIME}"/>
+  <text x="34" y="24" font-size="11.5" fill="{DIM}">{text}</text>
+  <text x="{w - 16}" y="24" text-anchor="end" font-size="10.5" fill="{DIM}">30d</text>
+</svg>
+"""
+
+
+def banner():
+    w, h = 1280, 300
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" font-family="{MONO}">
+  <rect x="1" y="1" width="{w - 2}" height="{h - 2}" fill="{BG}" stroke="{LIME}" stroke-width="2"/>
+  <text x="48" y="64" font-size="16" fill="{DIM}">~/abdnoman.com</text>
+  <text x="48" y="156" font-size="64" font-weight="700" fill="{LIME}">Abdullah Al Noman</text>
+  <rect x="48" y="180" width="64" height="3" fill="{LIME}"/>
+  <text x="48" y="232" font-size="22" fill="{TEXT}">Backend &#183; AI &#183; Linux &#183; DevOps</text>
+  <rect x="{w - 64}" y="{h - 72}" width="16" height="30" fill="{LIME}">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
 </svg>
 """
 
@@ -139,6 +154,7 @@ def write(path, svg):
 
 
 def build_static():
+    write("assets/banner.svg", banner())
     for path, c in STATIC_CARDS.items():
         write(
             path,

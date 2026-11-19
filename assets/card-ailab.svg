@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="136" viewBox="0 0 760 136" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif">
-  <rect x="0.5" y="0.5" width="759" height="135" rx="10" fill="#110e2b" stroke="#ffffff" stroke-opacity="0.10"/>
-  <text x="24" y="38" font-size="19" font-weight="700" fill="#ffffff">AI Assisted Programming Lab Evaluation Platform</text>
-  <text x="736" y="38" text-anchor="end" font-size="12" font-weight="600" fill="#fbbf24">Pilot at DIU</text>
-  <text x="24" y="66" font-size="13" fill="#cfcdf5">AI-assisted evaluation of programming lab submissions.</text>
-  <text x="24" y="92" font-size="11.5" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" fill="#8f8bc7">Django REST Framework &#183; PostgreSQL &#183; Redis &#183; Celery &#183; AWS &#183; Cloudflare</text>
-  <text x="24" y="116" font-size="11.5" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" fill="#a9a5d9">Final Year Design Project &#183; Daffodil International University</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="128" viewBox="0 0 760 128" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif">
+  <rect x="0.5" y="0.5" width="759" height="127" fill="#0a0a0a" stroke="#a3e635" stroke-opacity="0.55"/>
+  <text x="24" y="38" font-size="18" font-weight="700" fill="#a3e635">AI Assisted Programming Lab Evaluation Platform</text>
+  <text x="736" y="38" text-anchor="end" font-size="12" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" fill="#a3e635">Pilot at DIU</text>
+  <text x="24" y="64" font-size="13" fill="#d4d4d8">AI-assisted evaluation of programming lab submissions.</text>
+  <text x="24" y="90" font-size="11.5" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" fill="#71717a">Django REST Framework &#183; PostgreSQL &#183; Redis &#183; Celery &#183; AWS &#183; Cloudflare</text>
+  <text x="24" y="110" font-size="11.5" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" fill="#71717a">Final Year Design Project &#183; Daffodil International University</text>
 </svg>

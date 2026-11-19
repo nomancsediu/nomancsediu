@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="136" viewBox="0 0 760 136" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif">
-  <rect x="0.5" y="0.5" width="759" height="135" rx="10" fill="#110e2b" stroke="#ffffff" stroke-opacity="0.10"/>
-  <text x="24" y="38" font-size="19" font-weight="700" fill="#ffffff">BoardSnap</text>
-  <text x="736" y="38" text-anchor="end" font-size="12" font-weight="600" fill="#a78bfa">2nd Place</text>
-  <text x="24" y="66" font-size="13" fill="#cfcdf5">Turns a whiteboard photo into notes, code, flashcards and a quiz.</text>
-  <text x="24" y="92" font-size="11.5" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" fill="#8f8bc7">FastAPI &#183; React &#183; Gemma Vision</text>
-  <text x="24" y="116" font-size="11.5" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" fill="#a9a5d9">Team Leader &#183; Build With Gemma @ Bangladesh</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="128" viewBox="0 0 760 128" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif">
+  <rect x="0.5" y="0.5" width="759" height="127" fill="#0a0a0a" stroke="#a3e635" stroke-opacity="0.55"/>
+  <text x="24" y="38" font-size="18" font-weight="700" fill="#a3e635">BoardSnap</text>
+  <text x="736" y="38" text-anchor="end" font-size="12" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" fill="#a3e635">2nd Place</text>
+  <text x="24" y="64" font-size="13" fill="#d4d4d8">Turns a whiteboard photo into notes, code, flashcards and a quiz.</text>
+  <text x="24" y="90" font-size="11.5" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" fill="#71717a">FastAPI &#183; React &#183; Gemma Vision</text>
+  <text x="24" y="110" font-size="11.5" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" fill="#71717a">Team Leader &#183; Build With Gemma @ Bangladesh</text>
 </svg>

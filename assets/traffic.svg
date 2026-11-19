@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="460" height="44" viewBox="0 0 460 44" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace">
-  <rect x="0.5" y="0.5" width="459" height="43" rx="10" fill="#110e2b" stroke="#ffffff" stroke-opacity="0.10"/>
-  <circle cx="20" cy="22" r="4" fill="#4ade80"/>
-  <text x="34" y="26" font-size="11.5" fill="#a9a5d9"><tspan fill="#ffffff" font-weight="700">438.7K</tspan> requests &#183; <tspan fill="#ffffff" font-weight="700">22.1K</tspan> views &#183; <tspan fill="#ffffff" font-weight="700">15K</tspan> visitors</text>
-  <text x="442" y="26" text-anchor="end" font-size="10.5" fill="#8f8bc7">30d</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="40" viewBox="0 0 440 40" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace">
+  <rect x="0.5" y="0.5" width="439" height="39" fill="#0a0a0a" stroke="#a3e635" stroke-opacity="0.55"/>
+  <rect x="16" y="16" width="8" height="8" fill="#a3e635"/>
+  <text x="34" y="24" font-size="11.5" fill="#71717a"><tspan fill="#a3e635" font-weight="700">438.7K</tspan> requests &#183; <tspan fill="#a3e635" font-weight="700">22.1K</tspan> views &#183; <tspan fill="#a3e635" font-weight="700">15K</tspan> visitors</text>
+  <text x="424" y="24" text-anchor="end" font-size="10.5" fill="#71717a">30d</text>
 </svg>
