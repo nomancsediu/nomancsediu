@@ -1,31 +1,28 @@
-# Abdullah Al Noman
+<img src="assets/banner.svg" alt="Abdullah Al Noman - Backend, AI, Linux and DevOps Engineer" width="100%"/>
 
-Backend and AI Engineer. 2x Hackathon Winner.
-CSE student at Daffodil International University, Dhaka.
+Backend and AI Engineer, 2x hackathon winner. CSE student at Daffodil International University, Dhaka.
 
-[Portfolio](https://abdnoman.com) · [LinkedIn](https://linkedin.com/in/nomanit) · [YouTube](https://youtube.com/@allaboutsemicolons) · [Email](mailto:abdnoman093@gmail.com)
+<a href="https://abdnoman.com"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
+<a href="https://linkedin.com/in/nomanit"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://youtube.com/@allaboutsemicolons"><img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube"/></a>
+<a href="mailto:abdnoman093@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
 
-## Projects
+## Featured Projects
 
-- [Admission Informer](https://admissioninformer.com): Bangla university admission portal. Live.
-- [AI Assisted Programming Lab Evaluation Platform](https://abdnoman.com): Pilot at DIU.
-- [BoardSnap](https://boardsnap.onrender.com): 2nd Place, Build With Gemma at Bangladesh.
+<a href="https://admissioninformer.com"><img src="assets/card-admission.svg" width="760" alt="Admission Informer. Live. Bangla university admission portal."/></a>
+
+<a href="https://abdnoman.com"><img src="assets/card-ailab.svg" width="760" alt="AI Assisted Programming Lab Evaluation Platform. Pilot at DIU."/></a>
+
+<a href="https://boardsnap.onrender.com"><img src="assets/card-boardsnap.svg" width="760" alt="BoardSnap. 2nd Place, Build With Gemma at Bangladesh."/></a>
+
+<img src="assets/traffic.svg" width="460" alt="Admission Informer traffic, last 30 days"/>
 
 ## Stack
 
-**Backend:** Python, Django, DRF, FastAPI, Celery, Redis, PostgreSQL, MySQL
+<img src="https://skillicons.dev/icons?i=py,django,fastapi,redis,postgres,mysql&theme=dark&perline=6" alt="Backend: Python, Django, FastAPI, Redis, PostgreSQL, MySQL"/>
 
-**AI:** LLM Integration, Gemma Vision, LangChain, LangGraph, RAG, Prompt Engineering
+<img src="https://skillicons.dev/icons?i=linux,docker,aws,cloudflare,git,githubactions&theme=dark&perline=6" alt="Linux, Docker, AWS, Cloudflare, Git, GitHub Actions"/>
 
-**Linux / DevOps:** Linux, Docker, AWS, Cloudflare, Git, GitHub Actions
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind&theme=dark&perline=6" alt="React, Next.js, Tailwind CSS"/>
 
-**Frontend:** React, Next.js, Tailwind CSS
-
-## Achievements
-
-- 2nd Place, Build With Gemma @ Bangladesh
-- Winner, Devpost Build with AI Hack Days @ DIU
-- Jacket Winner, AWS Builder Challenge
-- 30+ contests on Codeforces, [nomanexists](https://codeforces.com/profile/nomanexists)
-
-Open to internships and backend or AI engineering roles. Email gets the fastest reply.
+<sub>Also: DRF · Celery · LLM Integration · Gemma Vision · LangChain · LangGraph · RAG · Prompt Engineering</sub>

@@ -2,12 +2,12 @@
 
 Default run (used by the GitHub Action):
     Fetches 30-day traffic from the Cloudflare GraphQL Analytics API and writes
-    assets/traffic.svg (the Admission Informer card, with live numbers).
+    assets/traffic.svg (a small live-numbers strip for Admission Informer).
     Env: CF_API_TOKEN (Zone > Analytics > Read), CF_ZONE_ID
 
 Static run (no API, no secrets):
     python3 scripts/update_traffic.py --static
-    Rewrites assets/card-ailab.svg, assets/card-boardsnap.svg, assets/stack.svg
+    Rewrites assets/card-admission.svg, assets/card-ailab.svg, assets/card-boardsnap.svg
 """
 import datetime as dt
 import html
@@ -38,14 +38,15 @@ W = 760
 
 GREEN, AMBER, PURPLE, CYAN = "#4ade80", "#fbbf24", "#a78bfa", "#22d3ee"
 
-ADMISSION = dict(
-    title="Admission Informer",
-    badge="Live",
-    desc="Bangla university admission portal. Gemma Vision reads circulars from images.",
-    stack="Django REST Framework · Next.js · Gemma Vision · AWS · Cloudflare",
-    accent=GREEN,
-)
 STATIC_CARDS = {
+    "assets/card-admission.svg": dict(
+        title="Admission Informer",
+        badge="Live",
+        desc="Bangla university admission portal. Gemma Vision reads circulars from images.",
+        stack="Django REST Framework · Next.js · Gemma Vision · AWS · Cloudflare",
+        meta="admissioninformer.com",
+        accent=GREEN,
+    ),
     "assets/card-ailab.svg": dict(
         title="AI Assisted Programming Lab Evaluation Platform",
         badge="Pilot at DIU",
@@ -63,12 +64,6 @@ STATIC_CARDS = {
         accent=PURPLE,
     ),
 }
-STACK = [
-    ("backend", PURPLE, ["Python", "Django", "DRF", "FastAPI", "Celery", "Redis", "PostgreSQL", "MySQL"]),
-    ("ai", CYAN, ["LLM Integration", "Gemma Vision", "LangChain", "LangGraph", "RAG", "Prompt Engineering"]),
-    ("linux / devops", GREEN, ["Linux", "Docker", "AWS", "Cloudflare", "Git", "GitHub Actions"]),
-    ("frontend", AMBER, ["React", "Next.js", "Tailwind CSS"]),
-]
 
 
 def esc(t):
@@ -107,14 +102,6 @@ def fetch(token, zone):
     }
 
 
-def live_meta(s):
-    v = lambda t: f'<tspan fill="#ffffff" font-weight="700">{t}</tspan>'
-    return (
-        f"{v(fmt(s['requests']))} requests &#183; {v(fmt(s['pageViews']))} page views"
-        f" &#183; {v(fmt(s['visitors']))} visitors (daily total) &#183; last 30 days"
-    )
-
-
 def project_card(title, badge, desc, stack, meta_svg, accent):
     h = 136
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{h}" viewBox="0 0 {W} {h}" font-family="{SANS}">
@@ -128,20 +115,19 @@ def project_card(title, badge, desc, stack, meta_svg, accent):
 """
 
 
-def stack_card():
-    rows, y = "", 44
-    sep = '<tspan fill="#e6e4ff" fill-opacity="0.35"> &#183; </tspan>'
-    for label, color, items in STACK:
-        text = sep.join(esc(i) for i in items)
-        rows += (
-            f'<text x="24" y="{y}" font-size="12" font-weight="700" fill="{color}">{esc(label)}</text>'
-            f'<text x="150" y="{y}" font-size="12" fill="#e6e4ff">{text}</text>\n  '
-        )
-        y += 30
-    h = y - 30 + 26
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{h}" viewBox="0 0 {W} {h}" font-family="{MONO}">
-  <rect x="0.5" y="0.5" width="{W - 1}" height="{h - 1}" rx="10" fill="{BG}" stroke="{BORDER}" stroke-opacity="0.10"/>
-  {rows}</svg>
+def traffic_strip(stats):
+    w, h = 460, 44
+    v = lambda t: f'<tspan fill="#ffffff" font-weight="700">{t}</tspan>'
+    text = (
+        f"{v(fmt(stats['requests']))} requests &#183; {v(fmt(stats['pageViews']))} views"
+        f" &#183; {v(fmt(stats['visitors']))} visitors"
+    )
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" font-family="{MONO}">
+  <rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="10" fill="{BG}" stroke="{BORDER}" stroke-opacity="0.10"/>
+  <circle cx="20" cy="22" r="4" fill="{GREEN}"/>
+  <text x="34" y="26" font-size="11.5" fill="#a9a5d9">{text}</text>
+  <text x="{w - 18}" y="26" text-anchor="end" font-size="10.5" fill="#8f8bc7">30d</text>
+</svg>
 """
 
 
@@ -158,7 +144,6 @@ def build_static():
             path,
             project_card(c["title"], c["badge"], c["desc"], c["stack"], esc(c["meta"]), c["accent"]),
         )
-    write("assets/stack.svg", stack_card())
 
 
 if __name__ == "__main__":
@@ -166,8 +151,4 @@ if __name__ == "__main__":
         build_static()
     else:
         stats = fetch(os.environ["CF_API_TOKEN"], os.environ["CF_ZONE_ID"])
-        a = ADMISSION
-        write(
-            "assets/traffic.svg",
-            project_card(a["title"], a["badge"], a["desc"], a["stack"], live_meta(stats), a["accent"]),
-        )
+        write("assets/traffic.svg", traffic_strip(stats))
