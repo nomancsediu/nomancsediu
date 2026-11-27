@@ -8,8 +8,8 @@
   </rect>
   <text x="42" y="102" font-size="12" fill="#a3e635">LIVE  admissioninformer.com</text>
   <rect x="24" y="122" width="252" height="1" fill="#a3e635" fill-opacity="0.25"/>
-  <text x="24" y="168" font-size="28" font-weight="700" fill="#a3e635">705.9K</text><text x="140" y="168" font-size="13" fill="#d4d4d8">requests</text>
-  <text x="24" y="206" font-size="28" font-weight="700" fill="#a3e635">36K</text><text x="140" y="206" font-size="13" fill="#d4d4d8">page views</text>
-  <text x="24" y="244" font-size="28" font-weight="700" fill="#a3e635">23.4K</text><text x="140" y="244" font-size="13" fill="#d4d4d8">visitors</text>
+  <text x="24" y="168" font-size="28" font-weight="700" fill="#a3e635">740.9K</text><text x="140" y="168" font-size="13" fill="#d4d4d8">requests</text>
+  <text x="24" y="206" font-size="28" font-weight="700" fill="#a3e635">38.2K</text><text x="140" y="206" font-size="13" fill="#d4d4d8">page views</text>
+  <text x="24" y="244" font-size="28" font-weight="700" fill="#a3e635">24.6K</text><text x="140" y="244" font-size="13" fill="#d4d4d8">visitors</text>
   <text x="24" y="266" font-size="10" fill="#71717a">last 30 days &#183; Cloudflare</text>
 </svg>
